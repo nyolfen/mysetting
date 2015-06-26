@@ -1,0 +1,17 @@
+[include]
+    path = .gitconfig.local
+[color]
+	ui = true
+[core]
+	editor = vim
+    excludesfile = ~/.gitignore
+[alias]
+    co = checkout
+    ci = commit
+    st = status
+    b = branch
+    sm = submodule
+    ps = push
+    pl = pull
+    d = diff
+    l = log
