@@ -91,6 +91,8 @@ zstyle ':completion:*:default' menu select=1
 #------------------------
 alias vi='/usr/bin/vim'
 alias ls='ls -F'
+alias bi='bundle install --path vendor/bundle'
+alias be='bundle exec'
 
 # プロンプトのカラー表示を有効
 autoload -U colors
